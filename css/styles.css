@@ -1,0 +1,240 @@
+/* font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+
+:root{
+   /* шрифты */
+   --basic-font-style: 'Roboto', sans-serif;
+   --secondary-font-style: 'Raleway', sans-serif;
+   /* цвет фона */
+   --basic-background: #ffffff;
+   --secondary-background: #2f303a;
+   /* цвет фона кнопок */
+   --background-btn:#f5f4fa;
+   --background-btn-hover:#2196f3;
+   /* цвета текста */
+   --color-text:#212121;
+   --color-text-two:#757575;
+   --color-text-link:#757575;
+   /* цвета текста (hover)*/
+   --color-text-btn: #2196f3;
+}
+
+body{
+   font-family:var(--basic-font-style);
+}
+
+
+/* header навигация контакты */
+.list,
+.info-block{
+   list-style: none;
+}
+.nav-item-link{
+   text-decoration: none;
+color: var(--color-text);
+
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.1;
+
+letter-spacing: 0.02em;
+}
+.nav-link{
+   text-decoration: none;
+   color: var(--color-text-link);
+
+   font-style: normal;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 1.1;
+
+   letter-spacing: 0.02em;
+
+}
+.nav-item-link:hover,
+.nav-link:hover,
+.minor-linc:hover,
+.minor-address:hover{
+color: var(--color-text-btn);
+}
+/* navigation */
+.nav-btn {
+   text-decoration: none;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.1;
+   letter-spacing: 0.03em;
+}
+.nav-btn:hover{
+   color: #ffffff;
+   background-color: var(--background-btn-hover);
+   cursor: pointer;
+}
+.basic-btn:hover{
+   cursor: pointer;
+}
+
+/* контакты */
+.heading{
+   background-color: var(--secondary-background);
+}
+.basic-heading{
+   color: #ffffff;
+   font-style: normal;
+   font-weight: 900;
+   font-size: 44px;
+   line-height: 1.3;
+   letter-spacing: 0.06em;
+   text-transform: uppercase;
+}
+.basic-btn{
+   text-decoration: none;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 1.1;
+   letter-spacing: 0.06em;
+   color: #FFFFFF;
+   background-color: var(--background-btn-hover);
+}
+/* секция приемущeств */
+.details-item-element {
+   color: var(--color-text);
+   font-style: normal;
+   font-weight: bold;
+   font-size: 14px;
+   line-height: 1.1;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+}
+.details-item-part {
+color: var(--color-text-two);
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.2;
+letter-spacing: 0.03em;
+}
+
+
+
+/* список картинок */
+.small-header{
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 1.2;
+   letter-spacing: 0.03em;
+}
+
+
+/* список участников */
+
+.small-header {
+   color: var(--color-text);
+   font-style: normal;
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 1.2;
+   letter-spacing: 0.03em;
+}
+
+.personal-name {
+   color: var(--color-text);
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.2;
+   letter-spacing: 0.03em;
+}
+.personal-profession {
+   color: var(--color-text-two);
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 1.2;
+   letter-spacing: 0.03em;
+}
+
+
+/* basic information */
+.info-item-btn{
+   text-decoration: none;
+}
+
+.info-item-name {
+color: var(--color-text);
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 2.0;
+letter-spacing: 0.06em;
+}
+.info-item-txt{
+   color: var(--color-text-two);
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 1.2;
+   letter-spacing: 0.03em;
+}
+
+
+/* подвал контактов  */
+address{
+   font-style: normal;
+}
+.minor-information {
+   background-color: var(--secondary-background);
+}
+.minor-address {
+   color: #ffffff;
+   text-decoration: none;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 1.2;
+   letter-spacing: 0.03em;
+}
+.minor-linc {
+   text-decoration: none;
+   color: rgba(255, 255, 255, 0.6);
+   font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.2;
+letter-spacing: 0.03em;
+}
+
+
+/* специфычные */
+.logo{
+   text-decoration: none;
+   color: var(--color-text);
+   font-family: var(--secondary-font-style);
+   font-style: normal;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 1.2;
+   letter-spacing: 0.03em;
+}
+.logo-footer{
+   text-decoration: none;
+   color: rgb(255, 255, 255);
+   font-family: var(--secondary-font-style);
+   font-style: normal;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 1.2;
+   letter-spacing: 0.03em;
+}
+.logo-span{
+   color: var(--color-text-btn);
+}
+
+
+
+
