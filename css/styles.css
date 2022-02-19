@@ -36,11 +36,19 @@ body{
    font-family:var(--basic-font-style);
 }
 
+.container{
+   display: flex;
+   width: 1200px;
+   padding-left: 15px;
+   padding-right: 15px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
 
 /* header навигация контакты */
 .header{
    min-height: 80px;
-   display: flex;
 }
 .header-list{
    padding-left: 0;
@@ -153,12 +161,17 @@ color: var(--color-text-btn);
    padding: 10px 32px;
 }
 /* секция приемущeств */
-.block{
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   padding: 94px 215px 0 215px;
+.container-block{
+   width: 1200px;
+   padding-left: 15px;
+   padding-right: 15px;
+   margin-left: auto;
+   margin-right: auto;
+   padding-top: 94px;
+   padding-bottom: 94px;
 }
+
+
 .details-item{
    margin-right: 30px;
 }
@@ -190,14 +203,16 @@ margin-top: 10px;
 
 /* список картинок */
 .small-header{
+   color: var(--color-text);
    font-style: normal;
-   font-weight: normal;
-   font-size: 14px;
+   font-weight: 700;
+   font-size: 36px;
    line-height: 1.2;
    letter-spacing: 0.03em;
 
    text-align: center;
    margin-top: 94px;
+
 }
 
 .list-image-item{
@@ -209,8 +224,9 @@ margin-top: 10px;
 }
 
 /* список участников */
-.hero{
 
+
+.hero-container{
    padding: 94px 0;
 }
 
@@ -221,7 +237,6 @@ margin-top: 10px;
 .personal-info-item{
    text-align: center;
 
-   background-color: aqua;
    margin-right: 30px;
    margin-top: 50px;
    padding-bottom: 30px;
@@ -230,14 +245,15 @@ margin-top: 10px;
    margin-right: 0;
 }
 
-.small-header {
+.small-hero {
    color: var(--color-text);
    font-style: normal;
    font-weight: 700;
    font-size: 36px;
    line-height: 1.2;
    letter-spacing: 0.03em;
-   margin-top: 94px;
+
+   text-align: center;
 }
 
 .personal-name {
@@ -264,6 +280,51 @@ margin-top: 10px;
 }
 
 /* basic information */
+
+.basic-container{
+   width: 1200px;
+   padding-left: 15px;
+   padding-right: 15px;
+   margin-left: auto;
+   margin-right: auto;
+   padding-top: 94px;
+   padding-bottom: 94px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.info-block{
+   margin-top: 50px;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.info-block-item{
+   margin-right: 30px;
+   margin-top: 30px;
+   padding-bottom: 20px;
+}
+
+.info-block-item:nth-child(-n + 3) {
+margin-top: 0;
+}
+
+.info-block-item:last-child{
+   margin-right: 0;
+}
+
+.basic-list{
+   text-align: center;
+}
+
+.list-item-nav{
+   margin-right: 8px;
+}
+.list-item-nav:last-child{
+   margin-right: 0;
+}
+
 .info-item-btn{
    text-decoration: none;
 }
@@ -279,6 +340,9 @@ font-weight: 700;
 font-size: 18px;
 line-height: 2.0;
 letter-spacing: 0.06em;
+
+margin-top: 20px;
+margin-left: 24px;
 }
 .info-item-txt{
    color: var(--color-text-two);
@@ -287,6 +351,9 @@ letter-spacing: 0.06em;
    font-size: 16px;
    line-height: 1.2;
    letter-spacing: 0.03em;
+
+   margin-top: 4px;
+   margin-left: 24px;
 }
 
 
@@ -297,10 +364,17 @@ address{
 .minor-information {
    background-color: var(--secondary-background);
 
-   padding: 60px 0 60px 215px;
 }
 
-
+.minor-container{
+   width: 1200px;
+   padding-left: 15px;
+   padding-right: 15px;
+   margin-left: auto;
+   margin-right: auto;
+   padding-top: 60px;
+   padding-bottom: 60px;
+}
 
 .minor-address {
    color: #ffffff;
@@ -324,8 +398,6 @@ letter-spacing: 0.03em;
 
 /* специфычные */
 .logo{
-margin-right: 93px;
-margin-top: 24px;
    text-decoration: none;
    color: var(--color-text);
    font-family: var(--secondary-font-style);
@@ -334,6 +406,9 @@ margin-top: 24px;
    font-size: 26px;
    line-height: 1.2;
    letter-spacing: 0.03em;
+
+   margin-right: 93px;
+   margin-top: 24px;
 }
 .logo-footer{
    text-decoration: none;
