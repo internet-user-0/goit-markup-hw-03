@@ -53,12 +53,25 @@ body{
 .container-info{
    display: flex;
 }
-.list-header,
-.list-nav-list,
-.list-details,
-.list-img,
-.list-team,
-.list-basic,
+
+.list-header{
+   display: flex;
+}
+.list-nav-list{
+   display: flex;
+}
+.list-details{
+   display: flex;
+}
+.list-img{
+   display: flex;
+}
+.list-team{
+   display: flex;
+}
+.list-basic{
+   display: flex;
+}
 .list-info{
    display: flex;
 }
